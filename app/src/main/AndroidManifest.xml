@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.appmakanan" >
+    package="com.example.appmakanan">
 
     <application
         android:allowBackup="true"
@@ -8,13 +8,14 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppMakanan" >
-        <activity android:name=".Dessert" >
-        </activity>
+        android:theme="@style/Theme.AppMakanan">
+        <activity android:name=".bingkaTelur"></activity>
+        <activity android:name=".baksoSamyang" />
+        <activity android:name=".Dessert" />
         <activity android:name=".MainCourse" />
         <activity android:name=".Appetizer" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".LoginActivity" >
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
