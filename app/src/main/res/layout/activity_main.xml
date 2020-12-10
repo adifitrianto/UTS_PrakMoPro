@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/appetizer"
+        android:layout_gravity="center_horizontal"
+        >
+    </ImageView>
+
+    <Button
+        android:id="@+id/appetizer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#E91E63"
+        android:textAllCaps="false"
+        android:text="Appetizer">
+    </Button>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/main_course"
+        android:layout_gravity="center_horizontal">
+    </ImageView>
+
+    <Button
+        android:id="@+id/main_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#E91E63"
+        android:textAllCaps="false"
+        android:text="Main Course">
+    </Button>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/dessert"
+        android:layout_gravity="center_horizontal">
+    </ImageView>
+
+    <Button
+        android:id="@+id/dessert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#E91E63"
+        android:textAllCaps="false"
+        android:text="Dessert">
+    </Button>
+
+</LinearLayout>
